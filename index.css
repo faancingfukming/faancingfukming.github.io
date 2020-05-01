@@ -6,9 +6,20 @@ html, body {
 h1 {
 	text-align: center;
 	font-family: 'Anton','sans-serif';
-	font-size: 500%;
+	font-size: 600%;
 }
-h6 {
+h2 {
+	text-align: center;
+	font-family: 'Anton','sans-serif';
+	font-size: 400%;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Anton','sans-serif';
+}
+
+h5 {
 	text-align: center;
 	font-family: 'Anton','sans-serif';
 	font-size:100%;
@@ -23,9 +34,16 @@ h6 {
 
 .card {
 	width: 90%;
-	height: 50%;
+	height: auto;
+	/*size: cover;*/
 }
 
 .card img {
-	size: contain;
+	height: 50%;
+	size: fill;
+}
+
+.form {
+	padding: 5em;
+	text-align: center;
 }
